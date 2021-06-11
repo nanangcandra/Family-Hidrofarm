@@ -9,7 +9,17 @@
 <body>
     <h2>Family Hidrofarm</h2>
     <p>Family Hidrofarm adalah toko online hidroponik yang menjual berbagai macam tanaman hidroponik, mulai dari menjual bibit atau benih dan perlengkapan-perlengkapan lain seperti alat atau media hidroponik<br><br>
-    
+    <div class="video">
+        <video controls>
+            <source src="hidroponik.mp4" type="video/mp4" />
+            maaf Kuota anda habis
+            
+        </video>
+        <marquee>
+            <p>judul: <a href="https://www.youtube.com/watch?v=9l-ti-tT9xw">Belajar Menanam Tanaman Hidroponik</a></p>
+        </marquee>
+        
+    </div>
     <center>
     <table border="1">
     <hr>Perlengkapan Alat<hr>
