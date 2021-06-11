@@ -7,10 +7,12 @@
     <?php
         foreach($dataMu as $dat){
     ?>
-    <form action="<?php echo base_url()."index.php/hal_utama/update_data/" ?>" method="POST">
+    <form action="<?php echo base_url()."index.php/hal_admin/update_data/" ?>" method="POST">
         <input type="hidden" name="Nomor" value="<?php echo $dat['Nomor']; ?>">
-        Nama Alat: <br><input type="text" name="Alat" value="<?php echo $dat['Alat']; ?>"><br><br>
-        Fungsi: <br><input type="text" name="Fungsi" value="<?php echo $dat['Fungsi']; ?>"><br><br>
+        Nama Barang: <br><input type="text" name="NamaBarang" value="<?php echo $dat['NamaBarang']; ?>"><br><br>
+        Jenis Barang: <br><input type="text" name="JenisBarang" value="<?php echo $dat['JenisBarang']; ?>"><br><br>
+        Stok: <br><input type="text" name="Stok" value="<?php echo $dat['Stok']; ?>"><br><br>
+        Harga: <br><input type="text" name="Harga" value="<?php echo $dat['Harga']; ?>"><br><br>
         <input type="submit"> <input type="reset">
     </form>
     <?php } ?>
