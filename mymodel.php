@@ -29,6 +29,7 @@ class mymodel extends CI_Model {
     }
 
     public function getData_khusus($tabel, $where){
+        // $this->db->order_by('Nomor', 'DESC');
         $zn = $this->db->get_where($tabel, $where);
         return $zn->result_array();
     }
