@@ -44,7 +44,7 @@
                     <a href="<?php echo base_url()."index.php/hal_admin/ambil_dataWhere/".$dat['Nomor']; ?>">Edit</a>
                 </td>
             </tr>
-        <?php } ?>
+        <?php } ?> 
     
     </table><br>
     <a href="<?php echo base_url()."index.php/hal_admin/baca_form"; ?>">Tambah Barang</a>
