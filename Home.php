@@ -8,7 +8,7 @@
 </head>
 <body>
     <h2>Family Hidrofarm</h2>
-    <p>Family Hidrofarm adalah toko online hidroponik yang menjual berbagai macam tanaman hidroponik, mulai dari menjual bibit atau benih dan perlengkapan-perlengkapan lain seperti alat atau media hidroponik<br><br>
+    <p>Family Hidrofarm adalah toko online hidroponik yang menjual berbagai macam tanaman hidroponik, mulai dari menjual bibit atau benih dan perlengkapan-perlengkapan lain seperti alat atau media hidroponik. Beli aneka produk di Toko online FAMILY HIDROFARM secara online sekarang. Kamu juga bisa beli produk dari Toko FAMILY HIDROFARM dengan aman & mudah. Beli aneka produk terbaru di Toko FAMILY HIDROFARM dengan mudah dari genggaman tangan Anda. Cek terus juga Toko FAMILY HIDROFARM untuk update produk secara online<br><br>
     <div class="video">
         <video controls>
             <source src="hidroponik.mp4" type="video/mp4" />
@@ -44,7 +44,7 @@
                     <a href="<?php echo base_url()."index.php/hal_admin/ambil_dataWhere/".$dat['Nomor']; ?>">Edit</a>
                 </td>
             </tr>
-        <?php } ?> 
+        <?php } ?>
     
     </table><br>
     <a href="<?php echo base_url()."index.php/hal_admin/baca_form"; ?>">Tambah Barang</a>
