@@ -29,6 +29,19 @@ class hal_admin extends CI_Controller
     {
         $this->load->view('form_tambah');
     }
+    
+    public function tambah_data()
+    {
+        $dataInputan = array(
+            'NamaBarang' => $this->input->post('NamaBarang'),
+            'JenisBarang' => $this->input->post('JenisBarang'),
+            'Stok' => $this->input->post('Stok'),
+            'Harga' => $this->input->post('Harga'),
+        );
+
+        $this->mymodel->masukkan('project', $dataInputan);
+        redirect(base_url() . "index.php/hal_admin/");
+    }
 
     public function hapus_data($penunjuk)
     {
