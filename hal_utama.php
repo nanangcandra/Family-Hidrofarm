@@ -56,5 +56,11 @@ class hal_utama extends CI_Controller {
         $this->mymodel->masukkan('dUser', $dataInputan);
         redirect(base_url(), 'refresh');
     }
+    public function logout(){
+       $this->session->sess_destroy();
+       redirect(base_url());
+    }
+}
+	
 
     
