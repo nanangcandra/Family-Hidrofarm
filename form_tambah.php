@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Document</title>
+    <title>Tambah Data</title>
 </head>
 <body>
     <form action="<?php echo base_url()."index.php/hal_admin/tambah_data/"; ?>" method="POST">
