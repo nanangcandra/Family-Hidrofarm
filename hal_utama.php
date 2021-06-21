@@ -57,8 +57,4 @@ class hal_utama extends CI_Controller {
         redirect(base_url(), 'refresh');
     }
 
-    public function logout(){
-       $this->session->sess_destroy();
-       redirect(base_url());
-    }
-}
+    
