@@ -50,17 +50,15 @@ class hal_utama extends CI_Controller {
     public function aksi_daftar(){
         $dataInputan = array(
             'Username' => $this->input->post('Username'),
-            'password' => md5($this->input->post('Password')),
+            'Password' => md5($this->input->post('Password')),
         );
 
         $this->mymodel->masukkan('dUser', $dataInputan);
         redirect(base_url(), 'refresh');
     }
+
     public function logout(){
        $this->session->sess_destroy();
        redirect(base_url());
     }
 }
-	
-
-    
