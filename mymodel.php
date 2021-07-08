@@ -2,12 +2,7 @@
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 class mymodel extends CI_Model {
-    // public function getData($tabel){
-    //     $mydata = $this->db->query("SELECT * FROM ".$tabel);
-    //     return $mydata->result_array();
-    // }
 
-    // quey builder, pake:
     public function getData($tabel){
         $zn = $this->db->get($tabel);
         return $zn->result_array();
